@@ -26,13 +26,17 @@ Make sure you have the following installed:
    git clone https://github.com/your-username/url-shortener.git
 
 2. Navigate to the project directory:
+    ```bash
     cd url-shortener
 
-3. Install the dependencies:
-    npm install
+4. Install the dependencies:
+   ```bash
+   npm install
 
-4. Create a .env file in the root directory and add your MongoDB URI:
+6. Create a .env file in the root directory and add your MongoDB URI:
+    ```bash
     MONGODB_URI=mongodb://localhost:27017/urlshortener
 
-5. Start the server:
+8. Start the server:
+   ```bash
     npm start
